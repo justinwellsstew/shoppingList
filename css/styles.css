@@ -1,0 +1,36 @@
+
+
+html {
+  background-color:#999999;
+  font-family: georgia, serif;
+}
+
+input {
+  margin: 1.5em;
+}
+
+h1 {
+  background-color: #B3432B;
+  padding:.5em;
+  color:#FFFFFF;
+  font-size:3em;
+}
+
+h2 {
+  font-size: 1.5em;
+  padding:.5em;
+}
+
+li{
+  padding:.25em 1em;
+}
+
+li:nth-child(odd){
+  background-color: #ededed;
+}
+
+#main{
+  width:80%;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+}
