@@ -2,7 +2,7 @@
 
 html {
   background-color:#999999;
-  font-family: georgia, serif;
+  font-family: Futura;
 }
 
 input {
@@ -13,16 +13,22 @@ h1 {
   background-color: #B3432B;
   padding:.5em;
   color:#FFFFFF;
-  font-size:3em;
+  font-size:4em;
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 3em;
   padding:.5em;
 }
 
 li{
-  padding:.25em 1em;
+  padding:.5em 1em;
+  font-size: 2em;
+}
+
+li > img {
+  float:right;
+  margin: 0 .5em .1em 0;
 }
 
 li:nth-child(odd){
@@ -30,7 +36,11 @@ li:nth-child(odd){
 }
 
 #main{
-  width:80%;
+  width:60%;
   margin: 0 auto;
   background-color: #FFFFFF;
+}
+
+#search{
+  background: #000000;
 }
