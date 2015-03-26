@@ -44,3 +44,17 @@ li:nth-child(odd){
 #search{
   background: #000000;
 }
+
+#clear-cart{
+  background-color: #000000;
+  color:#FFFFFF;
+  font-size: 2em;
+  text-align: center;
+  padding:.5em 0;
+}
+
+@media screen and (max-width: 400px) {
+  #main {
+    width: 100%;
+  }
+}
