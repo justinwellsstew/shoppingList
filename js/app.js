@@ -1,3 +1,6 @@
 $(document).ready(function(){
-  console.log('I love cookies');
-});
+  $('#add-item').click(function(){  
+    var item = $('input').val();
+    $('#need >ol').append('<li>' + item + '</li>')
+  });
+});  
