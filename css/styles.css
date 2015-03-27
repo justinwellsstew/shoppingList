@@ -35,6 +35,12 @@ li:nth-child(odd){
   background-color: #ededed;
 }
 
+p {
+  color:#B3432B;
+  padding:.5em 1em;
+  font-size: 2em;
+}
+
 #main{
   width:60%;
   margin: 0 auto;
