@@ -34,4 +34,8 @@ $(document).ready(function(){
     $('#incart >ol').children().remove();
   });
   
+<<<<<<< HEAD
 });  
+=======
+});  
+>>>>>>> 26b6dc4f9889be27f80cc3c1a07e6bc853f82526
