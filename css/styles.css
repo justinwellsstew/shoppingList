@@ -6,7 +6,11 @@ html {
 }
 
 input {
-  margin: 1.5em;
+  margin: .5em 0 .5em .75em;
+  height: 1.5em;
+  width: 7.5em;
+  font-size: 3em;
+  vertical-align: middle;
 }
 
 h1 {
@@ -18,7 +22,7 @@ h1 {
 
 h2 {
   font-size: 3em;
-  padding:.5em;
+  padding: .5em 0 .5em .75em ;
 }
 
 li{
@@ -35,6 +39,12 @@ li:nth-child(odd){
   background-color: #ededed;
 }
 
+p {
+  color:#B3432B;
+  padding:.5em 1em;
+  font-size: 2em;
+}
+
 #main{
   width:60%;
   margin: 0 auto;
@@ -46,15 +56,24 @@ li:nth-child(odd){
 }
 
 #clear-cart{
-  background-color: #000000;
-  color:#FFFFFF;
-  font-size: 2em;
+  background: #000000;
   text-align: center;
-  padding:.5em 0;
+  color: #FFFFFF;
+  font-size: 3em;
+  padding: .5em 0;
 }
 
-@media screen and (max-width: 400px) {
-  #main {
-    width: 100%;
+button {
+  height: 7.2em;
+  width: 7.2em;
+  vertical-align: middle;
+  margin: .5em 0 .5em .75em;
+  background-color: #2E8B57;
+  border:0px;
+}
+
+@media only screen and (max-width: 40em){
+  #main{
+    width:100%;
   }
 }
