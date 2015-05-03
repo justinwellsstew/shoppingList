@@ -71,6 +71,7 @@ p {
 button {
   height: 7.2em;
   width: 7.2em;
+  border-radius: 50%;
   vertical-align: middle;
   margin: .5em 0 .5em .75em;
   background-color: #2E8B57;
